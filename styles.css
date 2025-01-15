@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-family: "big-caslon-fb", serif;
+    color: #DC4266;
+    text-transform: lowercase;
+}
+
+h2, article a {
+    font-family: "IBM Plex Sans Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D9D9D9;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav ul li a {
+    font-family: "IBM Plex Sans Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #DC4266;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 500px) {
+
+}
