@@ -126,6 +126,11 @@ footer div ul li {
     text-align: center;
 }
 
+.image-grid article img {
+    border-radius: 25px;
+    padding: 20px;
+}
+
 /* MEDIA QUERY */
 @media only screen and (min-width: 500px) {
 
