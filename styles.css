@@ -2,26 +2,41 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #FAF9F6;
+}
+
 h1, h2, h3 {
     font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-family: "big-caslon-fb", serif;
+    font-weight: 100;
     color: #DC4266;
     text-transform: lowercase;
 }
 
-h2, article a {
+h2, article a, footer div p {
     font-family: "IBM Plex Sans Condensed", serif;
     font-weight: 400;
     font-style: normal;
-    color: #D9D9D9;
+    color: #979695;
     text-transform: uppercase;
     font-size: 15px;
 }
 
-nav ul li a {
+nav {
+    display: flex;
+}
+
+#important-links {
+    text-align: right;
+}
+
+a {
     font-family: "IBM Plex Sans Condensed", serif;
     font-weight: 400;
     font-style: normal;
@@ -31,7 +46,7 @@ nav ul li a {
     font-size: 15px;
 }
 
-nav ul li a:hover {
+a:hover {
     text-decoration: underline;
     color: #DC4266;
 }
@@ -42,10 +57,73 @@ ul {
     padding: 0;
 }
 
+nav {
+    padding: 45px;
+}
+
+header {
+    background: rgb(255,189,189);
+    background: linear-gradient(180deg, rgba(255,189,189,1) 0%, rgba(255,233,203,1) 58%, rgba(250,249,246,1) 100%);
+    padding: 45px;
+}
+
+#intro-subtitle h2 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+section article div {
+    background-color: #D9D9D9;
+    margin: 45px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+section article div h3 {
+    font-family: "big-caslon-fb", serif;
+    font-size: 30px;
+}
+
+section article div p {
+    font-family: "IBM Plex Sans Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+section article img {
+    border-radius: 25px;
+    padding: 20px;
+}
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+footer {
+    padding: 45px;
+    }
+
+footer div ul li {
+    padding-bottom: 10px;
+}
+
+/* PAGE SPECIFIC STYLING */
+
+.page-headers {
+    background: rgb(255,189,189);
+    background: linear-gradient(90deg, rgba(255,189,189,1) 0%, rgba(255,233,203,1) 58%);
+}
+
+.page-headers h1 {
+    text-align: center;
 }
 
 /* MEDIA QUERY */
