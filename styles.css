@@ -166,6 +166,11 @@ footer div ul li {
     padding-bottom: 10px;
 }
 
+footer p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 /* PAGE SPECIFIC STYLING */
 
 .page-headers, .project-header {
@@ -200,6 +205,14 @@ footer div ul li {
     margin: 45px;
 }
 
+.project-study p {
+    line-height: 1.5em;
+}
+
+.project-study hr {
+    margin-top: 20px;
+}
+
 .project-study h2 {
     color: black;
 }
@@ -226,6 +239,10 @@ footer div ul li {
 .project-details {
     padding-top: 20px;
     text-align: center;
+}
+
+.project-details h2 {
+    color:#979695;
 }
 
 .project-phases h4 {
