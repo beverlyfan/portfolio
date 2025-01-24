@@ -34,15 +34,7 @@ h2, article a, footer div p {
     font-size: 15px;
 }
 
-nav {
-    display: flex;
-}
-
-#important-links {
-    text-align: right;
-}
-
-a {
+a, #project-button {
     font-family: "IBM Plex Sans Condensed", serif;
     font-weight: 400;
     font-style: normal;
@@ -56,11 +48,20 @@ a:hover {
     text-decoration: underline;
 }
 
+nav {
+    padding: 15px;
+    display: flex;
+}
+
+#important-links {
+    text-align: right;
+}
+
 nav ul li a {
     color: black;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, footer a:hover {
     color: #DC4266;
 }
 
@@ -68,10 +69,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-nav {
-    padding: 45px;
 }
 
 header {
@@ -98,7 +95,6 @@ section article div {
     background-color: #D9D9D9;
     border-radius: 0px 0px 25px 25px;
     padding: 20px;
-    /* margin-top: 20px; */
 }
 
 section article div h3 {
@@ -126,9 +122,18 @@ img {
 }
 
 #project-button {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    padding: 20px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+#project-button:hover {
+    background-color: #DC4266;
+    text-decoration: underline;
+    color: white;
 }
 
 footer {
@@ -156,6 +161,13 @@ footer div ul li {
 }
 
 /* MEDIA QUERY */
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 750px) {
 
+/* nav {
+    display: flex;
+} */
+
+/* #important-links {
+    text-align: right;
+} */
 }
