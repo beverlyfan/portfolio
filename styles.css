@@ -49,12 +49,28 @@ a:hover {
 }
 
 nav {
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#page-links, #important-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px 15px;
+}
+
+#page-links {
+    justify-content: flex-start;
 }
 
 #important-links {
-    text-align: right;
+    justify-content: flex-end;
 }
 
 nav ul li a {
@@ -161,13 +177,6 @@ footer div ul li {
 }
 
 /* MEDIA QUERY */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
 
-/* nav {
-    display: flex;
-} */
-
-/* #important-links {
-    text-align: right;
-} */
 }
