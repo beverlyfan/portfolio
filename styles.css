@@ -236,6 +236,14 @@ footer p {
     padding-bottom: 20px;
 }
 
+.project-images {
+    margin: auto;
+}
+
+.project-images img {
+    padding-top: 20px;
+}
+
 .project-details {
     padding-top: 20px;
     text-align: center;
@@ -302,6 +310,15 @@ footer p {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .project-images {
+        width: 75%;
+    }
+
+    #op-fleximages {
+        display: flex;
+        width: 50%;
     }
 
     .project-details div {
