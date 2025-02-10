@@ -240,7 +240,7 @@ footer p {
     margin: auto;
 }
 
-.project-images img {
+.project-phases img {
     padding-top: 20px;
 }
 
@@ -316,8 +316,7 @@ footer p {
         width: 75%;
     }
 
-    #op-fleximages {
-        display: flex;
+    #small-image {
         width: 50%;
     }
 
