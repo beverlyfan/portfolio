@@ -320,6 +320,30 @@ footer p {
         width: 50%;
     }
 
+    #everypicture-project {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #everypicture-project img {
+        width: 50%;
+    }
+    
+    #everypicture {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .project-video video {
+        max-width: 75%;
+        height: auto;
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+    }
+
     .project-details div {
         text-align: left;
         max-width: 200px;
