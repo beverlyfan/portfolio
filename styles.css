@@ -376,6 +376,10 @@ footer p {
         padding-bottom: 5px;
     }
 
+    .connect-details ul {
+        display: block;
+    }
+
 
     /* PROJECT PAGES */
     .project-blurb {
@@ -453,7 +457,7 @@ footer p {
         padding-right: 100px;
     }
 
-    @media only screen and (min-width: 100px) {
+    @media only screen and (min-width: 1000px) {
         /* moving project details to side */
     }
 }
