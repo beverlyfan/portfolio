@@ -140,6 +140,27 @@ section article div {
     padding: 20px;
 }
 
+#passionproject-articles article {
+    max-width: 400px;
+    height: auto;
+}
+
+#passionproject-articles div {
+    border: none;
+    background-color: transparent;
+    padding-top: 6px;
+}
+
+#passionproject-articles p {
+    padding-top: 3px;
+}
+
+#passionproject-articles img {
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
 section article div h3, #header-link {
     font-family: "big-caslon-fb", serif;
     font-size: 30px;
@@ -166,6 +187,7 @@ section article img {
 
 img {
     display: block;
+    margin: auto;
     max-width: 100%;
     height: auto;
 }
@@ -334,6 +356,18 @@ footer p {
     margin-top: 200px;
 }
 
+#campussign-details {
+    margin-top: 255px;
+}
+
+#cruesstattoo-blurb, #campussign-blurb {
+    margin-top: 30px;
+}
+
+#cruesstattoo-details {
+    margin-top: 220px;
+}
+
 #everypic-details {
     margin-top: 150px;
 }
@@ -475,6 +509,18 @@ footer p {
     }
 
     #orchardpark-details {
+        margin-top: 150px;
+    }
+
+    #campussign-blurb, #cruesstattoo-blurb {
+        top: 160px;
+    }
+
+    #cruesstattoo-details {
+        margin-top: 170px;
+    }
+
+    #campussign-details {
         margin-top: 150px;
     }
 

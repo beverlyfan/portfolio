@@ -21,12 +21,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"> 
     <link rel="stylesheet" href="styles.css">
 
-    <title>beverly fan</title>
+    <title>play — beverly fan</title>
 </head>
 <body>
     <nav>
         <ul id="page-links"> <!-- add flexbox -->
-            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="index.html">home</a></li>
             <li><a href="workprojects.html">work</a></li>
             <li><a href="passionprojects.html">play</a></li>
         </ul>
@@ -36,50 +36,57 @@
             <li><a href="images/resume.pdf" target="_blank">resume</a></li>
         </ul>
     </nav>
-    <header class="home-header">
-        <h1>beverly fan is an <span class="underline">experiential designer</span> based in san jose, ca. she strives to bring a <span class="underline">human-centered</span> approach through graphic design, web design, and ux/ui.</h1>
-        <hr>
-        <div id="intro-subtitle"> <!-- add flexbox -->
-            <h2>featured projects ↓</h2>
-            <!-- <a href="allprojects.html">↗ view all projects</a> -->
+    <header class="workplay-header">
+        <h1>play</h1>
+        <div id="workplay-subtitle"> <!-- add flexbox -->
+            <h2>Passion projects</h2>
         </div>
     </header>
-    <main class="homepage">
-        <section> <!-- featured works -->
+    <main id="workplay-page" class="homepage">
+        <!-- <section id="workplay-buttons">
+            <button>Show all</button>
+            <button>Academic</button>
+            <button>Volunteer</button>   
+        </section> -->
+        <section id="passionproject-articles"> <!-- featured works -->
             <article>
-                <a href="graphicdesign/orchardpark.html"><img src="images/signs-home.png" alt="signage" width="1280" height="716" draggable="false"></a>
+                <img src="images/nezha.png" alt="nezhaposter" width="1000" height="1373" draggable="false">
                 <div> <!-- add flexbox -->
-                    <a href="graphicdesign/orchardpark.html" id="header-link"><h3>Picking Signs at Orchard Park</h3></a>
-                    <p>Modified wayfinding system for residents and visitors.</p>
-                    <p class="article-subtitle">Environmental Graphic Design / Academic Project / 2024</p>
+                    <p class="article-subtitle">Nezha graphic poster</p>
+                    <p class="article-subtitle">Graphic Design / Adobe Photoshop / 2025</p>
                 </div>
             </article>
             <article>
-                <a href="webdesign/everypicture.html"><img src="images/stamps-home.png" alt="stampbook" width="1280" height="716" draggable="false"></a>
+                <img src="images/yoimiya.jpg" alt="yoimiyaposter" width="600" height="839" draggable="false">
                 <div> <!-- add flexbox -->
-                    <a href="webdesign/everypicture.html" id="header-link"><h3>Every Picture Project</h3></a>
-                    <p>Personal archive that explores interactive storytelling.</p>
-                    <p class="article-subtitle">Web Design / Academic Project / 2023</p>
+                    <p class="article-subtitle">Genshin impact yoimiya graphic poster</p>
+                    <p class="article-subtitle">Graphic Design / Adobe Photoshop / 2022</p>
                 </div>
             </article>
             <article>
-                <a href="graphicdesign/alphabetsoup.html"><img src="images/soup-home.png" alt="alphabetsoup" width="1280" height="716" draggable="false"></a>
+                <img src="images/viper.jpg" alt="viperposter" width="600" height="840" draggable="false">
                 <div> <!-- add flexbox -->
-                    <a href="graphicdesign/alphabetsoup.html" id="header-link"><h3>Alphabet Soup</h3></a>
-                    <p>Branding design and guidelines for a fictional music festival campaign.</p>
-                    <p class="article-subtitle">Graphic Design, Branding Design / Academic Project / 2024</p>
+                    <p class="article-subtitle">Valorant Viper graphic poster</p>
+                    <p class="article-subtitle">Graphic Design / Adobe Photoshop / 2022</p>
                 </div>
             </article>
             <article>
-                <a href="uxui/saltandpepper.html"><img src="images/foodapp-home.png" alt="foodapp" width="1280" height="720" draggable="false"></a>
+                <img src="images/sova.jpg" alt="sovaposter" width="600" height="840" draggable="false">
                 <div> <!-- add flexbox -->
-                    <a href="uxui/saltandpepper.html" id="header-link"><h3>Salt & Pepper</h3></a>
-                    <p>Mobile app that prioritizes healthful, affordable meals.</p>
-                    <p class="article-subtitle">UX/UI / Academic Project / 2023</p>
+                    <p class="article-subtitle">Valorant Sova graphic poster</p>
+                    <p class="article-subtitle">Graphic Design / Adobe Photoshop / 2022</p>
+                </div>
+            </article>
+            <article>
+                <img src="images/hutao.jpg" alt="hutaoposter" width="600" height="840" draggable="false">
+                <div> <!-- add flexbox -->
+                    <p class="article-subtitle">Genshin Impact Hu Tao graphic poster</p>
+                    <p class="article-subtitle">Graphic Design / Adobe Photoshop / 2022</p>
                 </div>
             </article>
         </section>
-        <!-- <button id="project-button">View all projects</button> -->
+        <!-- <button id="project-button">Show all</button> -->
+        <button id="project-button"><a href="#passionproject-articles">Back to top</a></button>
     </main>
     <footer>
         <hr>
